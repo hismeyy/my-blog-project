@@ -11,13 +11,13 @@
       </el-menu-item>
 
       <div style="margin-left: 10%; display: flex">
-        <el-menu-item index="1">首页</el-menu-item>
-        <el-menu-item index="2">文章分类</el-menu-item>
+        <el-menu-item index="1"><router-link to="/index">首页</router-link></el-menu-item>
+        <el-menu-item index="2">分类</el-menu-item>
         <el-menu-item index="3">标签</el-menu-item>
-        <el-menu-item index="4">文章归档</el-menu-item>
+        <el-menu-item index="4">归档</el-menu-item>
       </div>
 
-      <el-menu-item index="5" style="margin-left: 8%">
+      <el-menu-item index="5" style="margin-left: 25%">
         <el-icon :size="20">
           <Edit />
         </el-icon>
@@ -26,8 +26,8 @@
 
       <div class="flex-grow" />
       <div style="display:flex; margin-right: 3%">
-        <el-menu-item index="6" style="color:#6eb25d;">登录</el-menu-item>
-        <el-menu-item index="7" style="color:#6eb25d;">注册</el-menu-item>
+        <el-menu-item index="6" style="color:#5cc478;">登录</el-menu-item>
+        <el-menu-item index="7" style="color:#5cc478;">注册</el-menu-item>
       </div>
 
     </el-menu>

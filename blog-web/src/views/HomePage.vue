@@ -1,6 +1,11 @@
 <template>
   <div id="home">
     <base-header/>
+    <el-container>
+
+      <router-view class="me-container"/>
+
+    </el-container>
     <base-footer />
   </div>
 </template>
@@ -18,5 +23,7 @@ export default {
 </script>
 
 <style>
-
+.me-container{
+  margin: 100px auto 140px;
+}
 </style>

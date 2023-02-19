@@ -43,7 +43,7 @@ export default {
 }
 
 .me-login-design-color {
-  color: #6eb25d !important;
+  color: #5cc478 !important;
 }
 
 </style>
