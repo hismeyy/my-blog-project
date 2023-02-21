@@ -10,7 +10,7 @@
     <div style="display: flex; justify-content: center; margin-top: 30px">
       <el-pagination
           small
-          background=false
+          background
           layout="prev, pager, next"
           :total="50"
           class="mt-4"

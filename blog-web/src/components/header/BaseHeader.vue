@@ -12,8 +12,8 @@
 
       <div style="margin-left: 10%; display: flex">
         <el-menu-item index="1"><router-link to="/index">首页</router-link></el-menu-item>
-        <el-menu-item index="2">分类</el-menu-item>
-        <el-menu-item index="3">标签</el-menu-item>
+        <el-menu-item index="2"><router-link to="/tags">标签</router-link></el-menu-item>
+        <el-menu-item index="3">分类</el-menu-item>
         <el-menu-item index="4">归档</el-menu-item>
       </div>
 

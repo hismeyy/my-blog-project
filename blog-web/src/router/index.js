@@ -1,6 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import HomePage from "@/views/HomePage.vue";
 import IndexPage from "@/views/IndexPage.vue";
+import TagsPage from "@/views/TagsPage.vue";
 
 const routes = [
   {
@@ -19,7 +20,12 @@ const routes = [
       {
         path: '/index',
         component: IndexPage
-      }
+      },
+      {
+        path: '/tags',
+        component: TagsPage
+      },
+
     ]
   },
 
