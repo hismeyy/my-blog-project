@@ -40,7 +40,7 @@
   .me-author-name {
     text-align: center;
     font-size: 30px;
-    border-bottom: 2px solid #5cc478;
+    border-bottom: 2px solid #409EFF;
     font-weight: bold;
     margin-bottom: 10px;
   }

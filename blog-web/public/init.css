@@ -4,6 +4,9 @@
 *::after {
     box-sizing: border-box;
 }
+body{
+    overflow: hidden;
+}
 
 /* normalize margin and padding */
 html,

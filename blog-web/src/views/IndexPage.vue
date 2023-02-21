@@ -3,7 +3,9 @@
     <el-container>
 
       <el-main class="me-articles">
+
         <article-scroll-page />
+
       </el-main>
 
       <el-aside>
@@ -21,7 +23,7 @@
 <script>
   import CardMe from "@/components/card/CardMe.vue";
   import SideCard from "@/components/card/SideCard.vue";
-  import ArticleScrollPage from "@/views/common/ArticleScrollPage.vue";
+  import ArticleScrollPage from "@/views/ArticleScrollPage.vue";
 
   export default {
     name: 'IndexPage',

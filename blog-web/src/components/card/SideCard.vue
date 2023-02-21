@@ -4,9 +4,10 @@
       <span>{{cardHeader}}</span>
     </div>
 
-    <ul class="me-category-list">
-      <li v-for="a in articles"  :style="itemStyle" :key="a.id" class="me-category-item"><a>{{a.title}}</a>
-      </li>
+    <ul class="me-category-list" >
+      <el-link type="primary" style="margin-left: 5px">标签1</el-link>
+      <el-link type="primary" style="margin-left: 5px">标签2</el-link>
+      <el-link type="primary" style="margin-left: 5px">标签3</el-link>
     </ul>
   </el-card>
 
@@ -20,10 +21,7 @@
         type: String,
         required: true
       },
-      articles: {
-        type: Array,
-        required: true
-      },
+
       itemStyle: Object
     },
     data() {
