@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "TagsItem",
+  name: "TagAndCategoriessItem.vue",
 }
 </script>
 
