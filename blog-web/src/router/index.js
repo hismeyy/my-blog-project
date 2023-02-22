@@ -3,6 +3,7 @@ import HomePage from "@/views/HomePage.vue";
 import IndexPage from "@/views/IndexPage.vue";
 import TagsPage from "@/views/TagsPage.vue";
 import CategoriesPage from "@/views/CategoriesPage.vue";
+import FilePage from "@/views/FilePage.vue";
 
 const routes = [
   {
@@ -29,6 +30,10 @@ const routes = [
       {
         path: '/categories',
         component: CategoriesPage
+      },
+      {
+        path: '/file',
+        component: FilePage
       }
 
     ]
