@@ -26,8 +26,8 @@
 
       <div class="flex-grow" />
       <div style="display:flex; margin-right: 3%">
-        <el-menu-item index="6" style="color:#409EFF;">登录</el-menu-item>
-        <el-menu-item index="7" style="color:#409EFF;">注册</el-menu-item>
+        <router-link to="/login"><el-menu-item index="6" style="color:#409EFF;">登录</el-menu-item></router-link>
+        <router-link to="/register"><el-menu-item index="7" style="color:#409EFF;">注册</el-menu-item></router-link>
       </div>
 
     </el-menu>

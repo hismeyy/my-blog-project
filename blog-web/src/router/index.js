@@ -4,6 +4,8 @@ import IndexPage from "@/views/IndexPage.vue";
 import TagsPage from "@/views/TagsPage.vue";
 import CategoriesPage from "@/views/CategoriesPage.vue";
 import FilePage from "@/views/FilePage.vue";
+import LoginPage from "@/views/LoginPage.vue";
+import RegisterPage from "@/views/RegisterPage.vue";
 
 const routes = [
   {
@@ -34,6 +36,14 @@ const routes = [
       {
         path: '/file',
         component: FilePage
+      },
+      {
+        path: '/login',
+        component: LoginPage
+      },
+      {
+        path: '/register',
+        component: RegisterPage
       }
 
     ]
